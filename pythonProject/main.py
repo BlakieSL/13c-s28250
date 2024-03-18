@@ -30,8 +30,8 @@ def generate_squares5(self, start, end):
     return [x ** 2 for x in range(start, end)]
 
 
-# task6
-from square_generator import SquareGenerator
+# task6,task7
+from square_generator.square_generator import SquareGenerator
 
 square_generator = SquareGenerator()
 squares = square_generator.generate_squares(1, 11)
