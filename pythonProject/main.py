@@ -28,3 +28,14 @@ def generate_squares5(self, start, end):
     if end < start:
         raise ValueError("End of range must be greater than start.")
     return [x ** 2 for x in range(start, end)]
+
+
+# task6
+from square_generator import SquareGenerator
+
+square_generator = SquareGenerator()
+squares = square_generator.generate_squares(1, 11)
+square_roots = square_generator.square_roots(squares)
+
+print(squares)
+print(square_roots)
