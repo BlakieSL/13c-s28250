@@ -39,3 +39,11 @@ square_roots = square_generator.square_roots(squares)
 
 print(squares)
 print(square_roots)
+
+# task8
+from square_generator.cubic_generator import CubicGenerator
+
+cubic_generator = CubicGenerator()
+cubes = cubic_generator.generate_cubes(1, 11)
+
+print(cubes)
